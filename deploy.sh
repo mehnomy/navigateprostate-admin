@@ -3,6 +3,9 @@
 # abort on errors
 set -e
 
+#remove old build
+rm -rf dist
+
 # build
 npm run build:prod --generate_report
 
